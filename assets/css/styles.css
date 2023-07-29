@@ -16,8 +16,8 @@
   --bold-font: 600;
   --bolder-font: 700;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --primary-color: #525fd1;
+  --secondary-color: #d3531c;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -54,6 +54,11 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+}
+
+h2,.skill-header,.projects-title{
+  color: var(--secondary-color);
+  
 }
 
 body {
@@ -116,6 +121,8 @@ nav ul li {
   margin: auto;
   background-color: black;
 }
+
+
 
 .hero img {
   height: 19.4rem;
