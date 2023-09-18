@@ -83,7 +83,7 @@ nav {
   display: flex;
   flex-direction: row;
 }
-@media(max-width:694px)
+@media(max-width:800px)
 {
   nav{
     flex-direction: column;
@@ -240,7 +240,7 @@ nav ul li {
   align-items: center;
   justify-content: center;
 }
-@media(max-width:704px)
+@media(max-width:800px)
 {
   .projects-container{
     flex-direction: column;
